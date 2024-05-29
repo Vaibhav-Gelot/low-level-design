@@ -1,6 +1,7 @@
 package design_patterns.behavioral.observer_pattern.ex1.observable;
 
 import design_patterns.behavioral.observer_pattern.ex1.observer.NotificationAlertObserver;
+
 /**
  * StockObservable
  */
@@ -12,7 +13,7 @@ public interface StockObservable {
 
     public void notifySubscriber();
 
-    public void setStockCount(int newStockAdded);
-
     public int getStockCount();
+
+    public void setStockCount(int newStockAdded);
 }

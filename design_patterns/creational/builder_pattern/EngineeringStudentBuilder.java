@@ -3,7 +3,7 @@ package design_patterns.creational.builder_pattern;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EngineeringStudentBuilder extends StudentBuilder{
+public class EngineeringStudentBuilder extends StudentBuilder {
     @Override
     public StudentBuilder setSubjects() {
         List<String> subs = new ArrayList<>();

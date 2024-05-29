@@ -9,13 +9,14 @@ public class Student {
     private String motherName;
     private String fatherName;
     private List<String> subjects;
-    public Student(StudentBuilder builder){
-        this.rollNumber=builder.rollNumber;
-        this.name=builder.name;
-        this.age=builder.age;
-        this.fatherName=builder.fatherName;
-        this.motherName=builder.motherName;
-        this.subjects=builder.subjects;
+
+    public Student(StudentBuilder builder) {
+        this.rollNumber = builder.rollNumber;
+        this.name = builder.name;
+        this.age = builder.age;
+        this.fatherName = builder.fatherName;
+        this.motherName = builder.motherName;
+        this.subjects = builder.subjects;
     }
 
     @Override

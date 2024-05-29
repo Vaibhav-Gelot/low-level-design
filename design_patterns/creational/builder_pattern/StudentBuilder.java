@@ -13,23 +13,28 @@ public abstract class StudentBuilder {
     public StudentBuilder() {
     }
 
-    StudentBuilder setRollNumber(int rollNumber){
-        this.rollNumber=rollNumber;
+    StudentBuilder setRollNumber(int rollNumber) {
+        this.rollNumber = rollNumber;
         return this;
     }
-    StudentBuilder setName(String name){
-        this.name=name;
+
+    StudentBuilder setName(String name) {
+        this.name = name;
         return this;
     }
-    StudentBuilder setAge(int age){
-        this.age=age;
+
+    StudentBuilder setAge(int age) {
+        this.age = age;
         return this;
     }
-    StudentBuilder setMotherName(String motherName){
-        this.motherName= motherName;
+
+    StudentBuilder setMotherName(String motherName) {
+        this.motherName = motherName;
         return this;
-    }StudentBuilder fatherName(String fatherName){
-        this.fatherName= fatherName;
+    }
+
+    StudentBuilder fatherName(String fatherName) {
+        this.fatherName = fatherName;
         return this;
     }
 
@@ -37,7 +42,7 @@ public abstract class StudentBuilder {
         return null;
     }
 
-    public Student build(){
+    public Student build() {
         return new Student(this);
     }
 

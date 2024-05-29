@@ -1,4 +1,4 @@
 - factory Pattern :
-   - SOLID -> S,O,L
-   - Best Use-case for type base selection of entity
-   - Good for single type group of category(single factory)
+    - SOLID -> S,O,L
+    - Best Use-case for type base selection of entity
+    - Good for single type group of category(single factory)
