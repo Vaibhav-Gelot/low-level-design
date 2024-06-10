@@ -6,4 +6,6 @@ This repo contains note for LLD
 
 - [strategy_pattern](./design_patterns/behavioral//strategy_pattern/doc/README.md)
 
-- [decorator_pattern](./design_patterns/structural//decorator_pattern/img2.png)
+- [observer_pattern](./design_patterns/behavioral//observer_pattern//doc/README.md)
+
+- [decorator_pattern](./design_patterns/structural//decorator_pattern/doc/README.md)
